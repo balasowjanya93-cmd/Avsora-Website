@@ -1,4 +1,5 @@
 
+
 import Link from "next/link";
 
 export default function HomePage() {
@@ -73,3 +74,57 @@ export default function HomePage() {
     </div>
   );
 }
+
+
+// export default function Home() {
+//   return (
+//     <main className="min-h-screen bg-gray-50 text-gray-900">
+
+//       {/* Hero Section */}
+//       <section className="text-center py-24 px-6 bg-gradient-to-r from-indigo-600 to-blue-700 text-white">
+//         <h1 className="text-5xl font-bold mb-6">
+//           AVSORA Technologies
+//         </h1>
+//         <p className="text-xl max-w-2xl mx-auto">
+//           Empowering businesses with SAP Solutions, Java Development,
+//           Testing Services, and Enterprise Workflows.
+//         </p>
+//       </section>
+
+//       {/* Services */}
+//       <section className="py-20 px-6 max-w-6xl mx-auto">
+//         <h2 className="text-3xl font-bold text-center mb-12">
+//           Our Services
+//         </h2>
+
+//         <div className="grid md:grid-cols-4 gap-8">
+//           <div className="bg-white p-6 rounded-xl shadow-md">
+//             <h3 className="text-xl font-semibold mb-3">SAP Solutions</h3>
+//             <p>End-to-end SAP consulting and implementation services.</p>
+//           </div>
+
+//           <div className="bg-white p-6 rounded-xl shadow-md">
+//             <h3 className="text-xl font-semibold mb-3">Java Development</h3>
+//             <p>Enterprise-grade applications using Spring Boot & microservices.</p>
+//           </div>
+
+//           <div className="bg-white p-6 rounded-xl shadow-md">
+//             <h3 className="text-xl font-semibold mb-3">Testing Services</h3>
+//             <p>Automation and manual testing for quality-driven delivery.</p>
+//           </div>
+
+//           <div className="bg-white p-6 rounded-xl shadow-md">
+//             <h3 className="text-xl font-semibold mb-3">Workflow Automation</h3>
+//             <p>Streamlining business processes with smart workflow systems.</p>
+//           </div>
+//         </div>
+//       </section>
+
+//       {/* Footer */}
+//       <footer className="bg-gray-900 text-white text-center py-6">
+//         © {new Date().getFullYear()} AVSORA Technologies. All rights reserved.
+//       </footer>
+
+//     </main>
+//   );
+// }
