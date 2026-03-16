@@ -18,7 +18,7 @@ export default function HomePage() {
               AVSORA <span className="text-blue-600">SOFTWARE</span>
             </span>
           </div>
-
+          
           {/* Nav Links */}
           <nav className="hidden md:flex items-center gap-8 text-sm text-slate-700">
             <Link href="/">Home</Link>
